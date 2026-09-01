@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. AI Terminal Typing Animation
     const typingBio = document.getElementById('typing-bio');
     if (typingBio) {
-        const textToType = "Generating profile... \n\nHello! I am Whispaire. Let me introduce you to Tiya. She builds AI systems that don't just process information, but actually make sense of it.\n\nP.S. She is actively seeking a summer internship for 2026!";
+        const textToType = "Booting systems_ai_bot... \n\nHi, I'm Tiya. I build distributed systems, real-time backends, and AI pipelines — from a Go-based fault-tolerant scheduler to multi-agent market simulations.\n\nP.S. Actively seeking a Summer 2027 SWE / AI-ML internship!";
         let index = 0;
         
         function typeWriter() {
