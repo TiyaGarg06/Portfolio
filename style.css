@@ -192,6 +192,19 @@ a {
     font-weight: 600;
 }
 
+.project-link {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    transition: color 0.2s ease;
+    vertical-align: middle;
+}
+
+.project-link:hover {
+    color: var(--accent);
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
